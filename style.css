@@ -1,0 +1,60 @@
+
+
+
+.header {
+    padding: 15px;
+    background-color: #f0c3d3;
+}
+
+.header h1 {
+    font-family: monospace, Helvetica;  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+
+ul li {
+    background-color: #c2ced8;
+    position: relative; 
+    padding: 10px;
+    cursor: pointer; 
+}
+ 
+
+ul li:hover {
+    background-color: #a8c2d6;
+
+}
+
+ul li.checked {
+    background-color: #879097;
+    text-decoration: line-through;
+    text-decoration-color: white; 
+}
+
+
+input {
+    margin: 0; 
+    width: 50%; 
+    padding: 4px; 
+    border: none; 
+    border-radius: 0; 
+
+}
+
+.addButton {
+    padding: 4px;
+    width: 15%;
+    background-color: #d4d8db;
+    cursor: pointer; 
+    border: none; 
+    border-radius: 0; 
+
+}
+
+.addButton:hover {
+    background-color: #6a829b ;
+}
