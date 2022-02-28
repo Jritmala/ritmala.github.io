@@ -1,3 +1,4 @@
+/* Poista listalta tehtävä */
 
 var myNodelist = document.getElementsByTagName("LI");
 var i;
@@ -17,6 +18,8 @@ for (i = 0; i < close.length; i++) {
     div.style.display = "none";
   }
 }
+
+/* Fuktio lisäämään uusi tehtävä listalle */
 
 function myFunction() {
     var li = document.createElement("li");
